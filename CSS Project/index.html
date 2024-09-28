@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+        
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+            
+            
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, weill help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box">
+                    <p class="box-p1">Let's find somw podcast to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcast</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_containt">
+            
+            <div class="sticky-nav">
+                <div class="sticky-nav-iocons">
+                <img src="backward_icon.png" alt="">
+                <img class="hide" src="forward_icon.png" alt="">
+                </div>
+                <div class="sticy-nav-options">
+                    <button class="badge hide">Explore Primium</button>
+                <button class="badge darck-badge"><i style="margin-right:5px;" class="fa-regular fa-circle-down"></i>Install App</button>
+                <i class="fa-regular fa-user"></i>
+                </div>
+                
+            </div>
+
+           
+                <h2>Recently played</h2>
+                <div class="class-container">
+                    <div class="card">
+                        <img class="card-img" src="card1img.jpeg" alt="">
+                        <p class="card-title">Top 50- Golbal</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                </div>
+
+
+                <h2>Trending now near you</h2>
+                <div class="class-container">
+                    <div class="card">
+                        <img class="card-img" src="card2img.jpeg" alt="">
+                        <p class="card-title">Top 50- Golbal</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="card3img.jpeg" alt="">
+                        <p class="card-title">Top 50- Golbal</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="card4img.jpeg" alt="">
+                        <p class="card-title">Top 50- Golbal</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="card4img.jpeg" alt="">
+                        <p class="card-title">Top 50- Golbal</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="card4img.jpeg" alt="">
+                        <p class="card-title">Top 50- Golbal</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                    
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="class-container">
+                    <div class="card">
+                        <img class="card-img" src="card5img.jpeg" alt="">
+                        <p class="card-title">Top 50- Golbal</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="card6img.jpeg" alt="">
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="card1img.jpeg" alt="">
+                        <p class="card-title">Top 50- Golbal</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+
+                </div>
+            
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+            
+        </div>
+        <div class="music_player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-control">
+                    <img class="player-control-icon" src="player_icon1.png" alt="">
+                    <img class="player-control-icon" src="player_icon2.png" alt="">
+                    <img style="opacity: 1; height: 2rem; " class="player-control-icon" src="player_icon3.png" alt="">
+                    <img class="player-control-icon" src="player_icon4.png" alt="">
+                    <img class="player-control-icon" src="player_icon5.png" alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input class="progress-bar" type="range" step="1">
+                    <span class="end-time">3:30</span>
+                </div>
+            </div>
+            <div class="control"></div>
+        </div>
+    </div>
+
+</body>
+</html>
